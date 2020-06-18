@@ -14,4 +14,14 @@
     <developerConnection>scm:svn:https://github.com/nishant260393/maven-multi-module-example.git</developerConnection>
     <url>https://github.com/nishant260393/maven-multi-module-example.git</url>
   </scm>
+    <distributionManagement>
+  <snapshotRepository>
+    <id>nexus</id>
+    <url>http://13.235.9.147:8081/nexus/content/repositories/snapshots</url>
+  </snapshotRepository>
+        <repository>
+    <id>nexus</id>
+    <url>http://13.235.9.147:8081/nexus/content/repositories/releases</url>
+  </repository>
+</distributionManagement>
 </project>
